@@ -5,8 +5,8 @@ creare una pagina dedicata in cui mostrare una card per ciascun componente.
 
 //Bonus
 Rendere l’esercizio responsive, mandando a capo le card
-Aggiungere un form di agginta membri che permetta di visualizzare il nuovo membro sulla pagina.
-(usate una foto qualunque, anche vostra se volete sentirvi parte del team! :sorridere:). */
+Aggiungere un form di aggiunta membri che permetta di visualizzare il nuovo membro sulla pagina.
+(usate una foto qualunque, anche vostra se volete sentirvi parte del team! :D). */
 
 
 /* Array di oggetti */
@@ -57,7 +57,7 @@ const teamMembers = [
     console.log(member);
     let {img, name, role, email} = member;
     let markup = `
-        <div class="col-4">
+        <div class="col-sm-12 col-md-6 col-xl-4">
             <div class="card">
                 <img src="${img}" alt="">
                 <h3>${name}</h3>

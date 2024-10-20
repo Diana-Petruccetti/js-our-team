@@ -1,0 +1,25 @@
+.meet {
+    color: rgb(223, 33, 122);
+    margin-bottom: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: rgb(93, 195, 226);
+}
+
+.card1 {
+    margin: 16px;
+    background-color: black;
+}
+
+.col-8 {
+    align-content: center;
+}

@@ -58,11 +58,17 @@ const teamMembers = [
     let {img, name, role, email} = member;
     let markup = `
         <div class="col-sm-12 col-md-6 col-xl-4">
-            <div class="card">
-                <img src="${img}" alt="">
-                <h3>${name}</h3>
-                <h5>${role}</h5>
-                <p>${email}</p>
+            <div class="card1">
+              <div class="row">
+                <span class="col-4">
+                  <img src="${img}" alt="">
+                  </span>
+                  <span class="col-8">
+                  <h3 class="white">${name}</h3>
+                  <h5 class="white">${role}</h5>
+                  <p class="blue">${email}</p>
+                </span>
+              </div>
             </div>
         </div>
     `
